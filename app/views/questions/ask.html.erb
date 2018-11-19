@@ -1,0 +1,5 @@
+<form action="/answer" method="get">
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  <input type="text" name="question" placeholder="Ask a question please">
+  <input type="submit" value="Ask!">
+</form>
